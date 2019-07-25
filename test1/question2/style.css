@@ -1,0 +1,6 @@
+div {
+  shape-outside: ellipse(40%);
+  width: 400px;
+  height: 200px;
+  float: left;
+}
