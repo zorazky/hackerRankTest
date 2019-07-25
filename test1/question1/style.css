@@ -3,13 +3,15 @@ div {
     height: 100px;
     background-color:magenta;
     border-radius: 50%;
-    animation: change 5s infinite;
+    animation-name:change;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
   }
   
   @keyframes change {
-    0% {backgroun-color:magenta;}
-    25% {backgroun-color:lightblue;}
-    50% {backgroun-color:lightgreen;}
-    75% {backgroun-color:yellow;}
-    100% {backgroun-color:cyan;}
+    0% {background-color:magenta;}
+    25% {background-color:lightblue;}
+    50% {background-color:lightgreen;}
+    75% {background-color:yellow;}
+    100% {background-color:cyan;}
   }
